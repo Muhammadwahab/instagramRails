@@ -37,13 +37,6 @@
     </div>
   </div>
 </nav>
-<% @posts.each do |post| %>
-  <div class="row">
-    <%= link_to (image_tag post.image.url(:medium)), post_path(post) %>
-    <p>
-      <%= post.caption %>
-    </p>
-  </div>
-<% end %>
+
   </body>
 </html>
