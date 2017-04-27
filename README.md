@@ -13,3 +13,5 @@ Things you may want to cover:
 #   <%= post.caption %>
 # <% end %>
 
+user name change
+
